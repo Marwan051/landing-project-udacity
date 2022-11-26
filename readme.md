@@ -4,7 +4,7 @@ This project aims to create a landing page with responsive layout
 - [HTML](#HTML)
 - [CSS](#CSS)
 - [JavaScript](#JavaScript)
-- [Usage](# Usage)
+- [Usage](#Usage)
 ### HTML
 The html mainly consists of 6 sections with paragraphs in the body and a header with an empty unordered list in the head.
 ### CSS
