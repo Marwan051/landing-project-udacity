@@ -6,7 +6,7 @@ const lists = Array.from(n);
 function buildnav() {
     for (const list of lists) {
         item = document.createElement("li");
-        item.innerHTML = `<li class="menu__link" id="${list.id}">${list.id}</li>`;
+        item.innerHTML = `<a  class="menu__link" id="${list.id}">${list.id}</a>`;
         navbar.appendChild(item);
     }
 
@@ -26,8 +26,8 @@ function clickNscroll() {
                 navli[i].classList.remove("active-link");//removing active link state
             };
             const s = event.target;
-            s.classList.add("active-link");//aading active link state
-        })
+            s.classList.add("active-link");//ading active link state
+            })
     }
 }
 
