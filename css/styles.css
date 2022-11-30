@@ -87,9 +87,12 @@ section {
     transition: ease 0.3s all;
 }
 
-.active-link {
+.navbar__menu .active-link {
     background-color: rgb(28, 196, 238);
     }
+.navbar__menu .active-link:hover{
+    background-color: rgb(28, 196, 238);
+} 
 
 /* Header Styles */
 .page__header {
